@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF; /* White background */
+    color: #051923; /* Darkest color for text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #003554; /* Dark blue for header */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: #FFFFFF; /* White text color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px;
+}
+
+header ul li a:hover {
+    color: #006494; /* Light blue color on hover */
+}
+
+/* Introducere Section Styles */
+.introducere {
+    height: 100vh;
+    background-image: url('../marvin-meyer-SYTO3xs06fU-unsplash.jpg'); /* Image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.introducere-content {
+    max-width: 800px;
+}
+
+.introducere h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.introducere p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+/* Main Content Styles */
+.proiecte {
+    margin-bottom: 40px;
+}
+
+.proiecte h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.proiecte ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.proiecte ul li {
+    background-color: #006494; /* Light blue color for project list background */
+    color: #FFFFFF; /* White text color */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proiecte ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.proiecte ul li a {
+    text-decoration: none;
+    color: #FFFFFF; /* White color for project links */
+    font-weight: bold;
+}
+
+/* Action Buttons Styles */
+.actiuni {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    color: #FFFFFF; /* White text color */
+    background-color: #0582CA; /* Darker blue color for buttons */
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #00A6FB; /* Lighter blue color on hover */
+}
+
+/* Responsive Styles */

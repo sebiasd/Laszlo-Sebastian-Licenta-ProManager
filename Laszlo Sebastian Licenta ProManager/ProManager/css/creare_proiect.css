@@ -1,0 +1,104 @@
+/* creare_proiect.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF; /* White background */
+    color: #051923; /* Darkest color for text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #003554; /* Dark blue for header */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: #FFFFFF; /* White text color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px;
+}
+
+header ul li a:hover {
+    color: #006494; /* Light blue color on hover */
+}
+
+/* Main Content Styles */
+form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="checkbox"],
+input[type="number"] {
+    margin-right: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    color: #FFFFFF; /* White text color */
+    background-color: #0582CA; /* Darker blue color for buttons */
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #00A6FB; /* Lighter blue color on hover */
+
+
+}
+.month.active-month {
+    background-color: #7fffd4; /* Aquamarine pentru lunile active */
+}
+

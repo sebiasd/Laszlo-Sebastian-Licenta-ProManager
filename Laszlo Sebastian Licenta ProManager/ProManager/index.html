@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProManager - Înregistrare / Autentificare</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bun venit la ProManager</h1>
+        <div class="form-container">
+            <form id="login-form" action="php/autentificare.php" method="post">
+                <h2>Autentificare</h2>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="email" required>
+                <label for="login-password">Parolă:</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Autentificare</button>
+            </form>
+
+            <form id="signup-form" action="php/inregistrare.php" method="post">
+                <h2>Înregistrare</h2>
+                <label for="first-name">Prenume:</label>
+                <input type="text" id="first-name" name="first_name" required>
+                <label for="last-name">Nume:</label>
+                <input type="text" id="last-name" name="last_name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Parolă:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="company">Companie:</label>
+                <input type="text" id="company" name="company" required>
+                <button type="submit">Înregistrare</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
